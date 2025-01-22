@@ -1,4 +1,4 @@
-# My JavaScript Playground 🔥
+# Personal JS Learning Tracking Repo
 
 <b>In this repo i will try to share all my learning stuff</b>
 <br>
