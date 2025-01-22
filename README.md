@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-  <img src="https://profile-counter.glitch.me/Salik-Seraj/count.svg?"  />
+  <img src="https://profile-counter.glitch.me/n4itr0-07/count.svg?"  />
 </div>
 
 ###
