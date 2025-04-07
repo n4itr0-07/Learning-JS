@@ -42,3 +42,12 @@ function isAdult() {
     }
 }
 isAdult();
+
+
+// Parameters: name and age
+function hello(name, age) {
+    console.log("Hello " + name + ", you are " + age + " years old.");
+}
+
+// Arguments: "Alice" and 25
+hello("Alice", 25);

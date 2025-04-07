@@ -29,26 +29,24 @@ let concatArr = [...arr1, ...arr2];
 // Passing elements of an array as arguments to a function
 
 function sum(a, b, c) {
-    return a + b + c;
+  return a + b + c;
 }
 
 let numbers = [1, 2, 3];
 let result = sum(...numbers);
 // console.log(result); // Outputs 6
 
-
 // With Object Literals
 
 let data = {
-    email: "virus@gmail.com",
-    password: "123456"
+  email: "virus@gmail.com",
+  password: "123456",
 };
 
 let dataCopy = { ...data, id: 123, name: "Virus" };
 console.log(data);
 
 console.log(dataCopy);
-
 
 // Adding Array elements to Object Literals
 
