@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 70%;
+  padding: 10px 15px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+li {
+  background-color: white;
+  padding: 12px 15px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: translateX(5px);
+}
+
+.delete {
+  background-color: #e74c3c;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+}
