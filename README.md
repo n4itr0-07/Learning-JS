@@ -14,15 +14,6 @@ This repository is a record of my personal learning journey in JavaScript. It co
 
 There is nothing specific required to follow along with this repository. You can use any code editor or IDE that you are comfortable with.
 
-**License:**
-
-This repository is currently not licensed under any specific license. 
-
-**Feel free to:**
-
-* Look around and see how I approach learning JavaScript.
-* Ask questions if you find anything interesting or have any suggestions.
-
 **I hope this repository helps you in your own JavaScript learning journey!**
 
 ---
