@@ -1,0 +1,203 @@
+:root {
+  --dark-bg: #202124;
+  --dark-container: #2d2f33;
+  --dark-text: #e8eaed;
+  --dark-display-bg: #3c4043;
+  --light-bg: #f8f9fa;
+  --light-container: #ffffff;
+  --light-text: #212529;
+  --light-display-bg: #f1f1f1;
+  --primary-color: #6c5ce7;
+  --secondary-color: #a29bfe;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Light Mode */
+body.light-mode {
+  background-color: var(--light-bg);
+  color: var(--light-text);
+}
+
+.light-mode .password-container {
+  background-color: var(--light-container);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.light-mode .password-display {
+  background-color: var(--light-display-bg);
+  color: var(--light-text);
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+.dark-mode .password-container {
+  background-color: var(--dark-container);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .password-display {
+  background-color: var(--dark-display-bg);
+  color: var(--dark-text);
+}
+
+.dark-mode .form-check-label,
+.dark-mode .slider-label,
+.dark-mode .customize-section strong {
+  color: var(--dark-text);
+}
+
+.password-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.password-display {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 5px;
+  word-break: break-all;
+  transition: all 0.3s ease;
+}
+
+.customize-section {
+  margin-top: 20px;
+}
+
+.options-row {
+  margin-bottom: 15px;
+}
+
+.btn-copy {
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: #5649c0;
+  border-color: #5649c0;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.slider-label {
+  margin-right: 10px;
+  font-weight: bold;
+  min-width: 80px;
+}
+
+.slider-value {
+  margin-left: 10px;
+  font-weight: bold;
+  min-width: 30px;
+  text-align: center;
+}
+
+.form-check {
+  margin-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#themeToggle {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode #themeToggle {
+  color: var(--dark-text);
+  border-color: var(--dark-text);
+}
+
+/* Add this to your existing styles.css */
+.light-mode input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.light-mode input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dark-mode input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 8px;
+  background: #555;
+  border-radius: 5px;
+  outline: none;
+}
+
+.dark-mode input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* For Firefox */
+input[type="range"]::-moz-range-track {
+  height: 8px;
+  background: #ddd;
+  border-radius: 5px;
+}
+
+.light-mode input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: var(--primary-color);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.dark-mode input[type="range"]::-moz-range-track {
+  background: #555;
+}
+
+.dark-mode input[type="range"]::-moz-range-thumb {
+  background: var(--secondary-color);
+}
