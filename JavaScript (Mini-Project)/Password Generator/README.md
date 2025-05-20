@@ -7,6 +7,7 @@ A simple password generator with customization options and dark mode.
 - Toggle character types: uppercase, lowercase, numbers, symbols
 - Light/dark mode toggle
 - Copy to clipboard functionality
+
 ![Password Generator Image](image.png)
 
 ## How to Use
@@ -16,7 +17,7 @@ A simple password generator with customization options and dark mode.
 4. Click "Copy Password" to copy
 
 ## Live Demo
-[🔗Password Generator Link](https://virus-xp.github.io/password-generator/)
+[🔗Password Generator Link](https://virus-xp.github.io/passsword-generator.github.io/)
 
 ## Technologies
 - HTML5
